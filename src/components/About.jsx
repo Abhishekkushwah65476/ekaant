@@ -3,7 +3,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    <section className="max-w-7xl mx-auto px-20 py-22 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
       {/* Left Content */}
       <div>
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
@@ -33,7 +33,7 @@ export default function About() {
       {/* Right Image */}
       <div className="flex justify-center">
         <img
-          src="/public/images/Mask group.png"
+          src="/images/maskgroup.png"
           alt="About Ekaant"
           className="rounded-2xl shadow-lg w-full h-auto object-cover"
         />

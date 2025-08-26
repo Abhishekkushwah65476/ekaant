@@ -30,10 +30,10 @@ const offerings = [
 
 export default function Offerings() {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
+    <section className="max-w-7xl mx-auto px-20 py-22 text-center">
       {/* Section Heading */}
       <h2 className="text-lg font-semibold text-green-800 relative inline-flex items-center justify-center py-5">
-  <span className="px-8 py-2 border-2 border-green-800 rounded-full flex items-center justify-center">
+  <span className="px-8  py-2 border-2 border-green-800 rounded-full flex items-center justify-center">
     WHAT WE OFFER
   </span>
   <span className="absolute left-[-55px] w-1/4 h-px bg-green-800 transform -translate-x-full"></span>
@@ -41,7 +41,7 @@ export default function Offerings() {
 </h2>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid mt-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {offerings.map((item, index) => (
           <div
             key={index}
